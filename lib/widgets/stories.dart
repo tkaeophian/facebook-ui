@@ -2,7 +2,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:facebook_demo/config/palette.dart';
 import 'package:facebook_demo/models/models.dart';
-import 'package:facebook_demo/widgets/profile_avatar.dart';
 import 'package:facebook_demo/widgets/widgets.dart';
 
 class Stories extends StatelessWidget {

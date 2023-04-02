@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:facebook_demo/models/models.dart';
-import 'package:facebook_demo/widgets/profile_avatar.dart';
 import 'package:facebook_demo/widgets/widgets.dart';
 
 class CreatePostContainer extends StatelessWidget {
