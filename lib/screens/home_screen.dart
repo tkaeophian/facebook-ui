@@ -3,6 +3,7 @@ import 'package:facebook_demo/config/palette.dart';
 import 'package:facebook_demo/data/data.dart';
 import 'package:facebook_demo/models/models.dart';
 import 'package:facebook_demo/widgets/widgets.dart';
+import 'package:flutter/services.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -112,7 +113,6 @@ class _HomeScreenMobile extends StatelessWidget {
       controller: scrollController,
       slivers: [
         SliverAppBar(
-          brightness: Brightness.light,
           backgroundColor: Colors.white,
           title: Text(
             'facebook',
@@ -140,6 +140,7 @@ class _HomeScreenMobile extends StatelessWidget {
               },
             )
           ],
+          systemOverlayStyle: SystemUiOverlayStyle.dark,
         ),
         SliverToBoxAdapter(
           child: CreatePostContainer(currentUser: currentUser),
